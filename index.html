@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXT museum</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Nxt museum</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>home</li>
+            <li><a href="#"></a>geschiedenis</li>
+            <li><a href="#"></a>overzicht</li>
+            <li><a href="#"></a>tickets</li>
+            <li class="ctn"><a href="#"></a>contact</li>
+        </ul>
+        <img src="/images/nxtmuseum_afbeelding.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <article class="header-content">
+            <h2>verken de virtuele wereld</h2>
+            <div class="line"></div>
+            <h1>De Betoverende Cyberwereld</h1>
+            <a href="#" class="ctn">leer meer</a>
+        </article>
+
+    </header>
+
+    <!-- == events == -->
+
+    <section class="events">
+        <div class="title">
+            <h1>aankomende evenementen</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/lampjes.webp" alt="">
+                <h3>vijftien punten</h3>
+                <p>de lampjes gingen mee bewegen als je langs liep</p>
+                <a href="#" class="ctn">meer informatie</a>
+            </div>
+            <div class="col">
+                <img src="./images/berg.webp" alt="">
+                <h3>diamanten kroon</h3>
+                <p>in de foto lijkt het alsof je diamanten ziet met daarin mooi stuk natuur.</p>
+                <a href="#" class="ctn">meer informatie</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+        <section class="explore">
+            <div class="explore-content">
+                <h1> explore the world</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores quae ab eligendi numquam ducimus quam, deserunt veniam aliquid hic quidem dolor deleniti vitae. Corporis quia culpa est esse enim.</p>
+   <a href="" class="ctn">meer informatie</a>
+        
+            </div>
+            
+                
+
+        
+        
+        </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+
+        })
+
+    </script>
+</body>
+
+</html>
